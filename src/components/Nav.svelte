@@ -49,12 +49,37 @@
 </style>
 
 <nav>
-	<ul>
-		<li><a aria-current='{segment === undefined ? "page" : undefined}' href='.'>home</a></li>
-		<li><a aria-current='{segment === "about" ? "page" : undefined}' href='about'>about</a></li>
+  <div class="mr-6 p-1 float-left">
+    <a class="text-blue-800 hover:text-blue-800"
+       rel=prefetch aria-current='{segment === undefined ? "page" : undefined}'
+       href='.'>M</a>
+  </div>
 
-		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch aria-current='{segment === "blog" ? "page" : undefined}' href='blog'>blog</a></li>
-	</ul>
+  <ul class="flex flex-row-reverse">
+    <li class="mr-6 p-1 order-4">
+      <a class="text-blue-500 hover:text-blue-800"
+         rel=prefetch aria-current='{segment === "portfolio" ? "page" : undefined}'
+         href='portfolio'>Portfolio</a>
+    </li>
+
+    <li class="mr-6 p-1 order-3">
+      <a class="text-blue-500 hover:text-blue-800"
+         rel=prefetch aria-current='{segment === "resume" ? "page" : undefined}'
+         href='resume'>Resume</a>
+    </li>
+
+    <li class="mr-6 p-1 order-2">
+      <a class="text-blue-500 hover:text-blue-800"
+         rel=prefetch aria-current='{segment === "about" ? "page" : undefined}'
+         href='about'>About</a>
+    </li>
+
+    <li class="mr-6 p-1 order-1">
+      <a class="text-blue-500 hover:text-blue-800"
+         rel=prefetch aria-current='{segment === "contact" ? "page" : undefined}'
+         href='contact'>Contact</a>
+    </li>
+
+  </ul>
+
 </nav>
