@@ -59,7 +59,6 @@
          rel=prefetch aria-current='{segment === "about" ? "page" : undefined}'
          href='https://www.linkedin.com/in/mekyle-naidoo-3a7ab2160/'>LinkedIn</a>
     </li>
-
     <li class="mr-6 p-1 order-1">
       <a class="text-blue-500 hover:text-blue-800"
          rel=prefetch aria-current='{segment === "contact" ? "page" : undefined}'
