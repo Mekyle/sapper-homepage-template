@@ -4,7 +4,6 @@
 
 <style>
 	nav {
-		border-bottom: 1px solid rgba(255,62,0,0.1);
 		font-weight: 300;
 		padding: 0 1em;
 	}
@@ -52,34 +51,19 @@
   <div class="mr-6 p-1 float-left">
     <a class="text-blue-800 hover:text-blue-800"
        rel=prefetch aria-current='{segment === undefined ? "page" : undefined}'
-       href='.'>M</a>
+       href='.'>ミカイル</a>
   </div>
-
   <ul class="flex flex-row-reverse">
-    <li class="mr-6 p-1 order-4">
-      <a class="text-blue-500 hover:text-blue-800"
-         rel=prefetch aria-current='{segment === "portfolio" ? "page" : undefined}'
-         href='portfolio'>Portfolio</a>
-    </li>
-
-    <li class="mr-6 p-1 order-3">
-      <a class="text-blue-500 hover:text-blue-800"
-         rel=prefetch aria-current='{segment === "resume" ? "page" : undefined}'
-         href='resume'>Resume</a>
-    </li>
-
     <li class="mr-6 p-1 order-2">
       <a class="text-blue-500 hover:text-blue-800"
          rel=prefetch aria-current='{segment === "about" ? "page" : undefined}'
-         href='about'>About</a>
+         href='https://www.linkedin.com/in/mekyle-naidoo-3a7ab2160/'>LinkedIn</a>
     </li>
 
     <li class="mr-6 p-1 order-1">
       <a class="text-blue-500 hover:text-blue-800"
          rel=prefetch aria-current='{segment === "contact" ? "page" : undefined}'
-         href='contact'>Contact</a>
+         href='https://twitter.com/SneekyBoiMeek'>Twitte</a>
     </li>
-
   </ul>
-
 </nav>
