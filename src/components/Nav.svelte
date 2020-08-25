@@ -63,7 +63,7 @@
     <li class="mr-6 p-1 order-1">
       <a class="text-blue-500 hover:text-blue-800"
          rel=prefetch aria-current='{segment === "contact" ? "page" : undefined}'
-         href='https://twitter.com/SneekyBoiMeek'>Twitte</a>
+         href='https://twitter.com/SneekyBoiMeek'>Twitter</a>
     </li>
   </ul>
 </nav>
